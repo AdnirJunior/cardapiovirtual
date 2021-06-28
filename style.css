@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    display: block;
+}
+
+body{
+    border-color: rgb(110, 212, 216);
+    align-items: center;
+    justify-content: center;
+    
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-family: cursive;
+}
+input{
+    border-radius: 5px;
+    max-width: 50px;
+    height: 20px;
+
+}
+main{
+    width: 80%;
+    padding-top: 20px;
+    
+}
+
+.linha{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.linha1{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(233, 227, 227);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.coluna-lista{
+    min-width: 40px;
+}
+
+.coluna-quantidade{
+    min-width: 40px;
+    max-width: 50px;
+    padding-left: 10px;
+    
+}
+
+.coluna-pedTota{
+    min-width: 40px;
+    max-width: 70px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.coluna-item{
+    width: 250px;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.coluna-vunit{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.coluna-vtotal{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.btnimp{
+    background: darkorchid;
+    padding: 20px;
+    width: 350px;
+}
+
+.btnimp:hover{
+    cursor: pointer;
+    background: red;
+}

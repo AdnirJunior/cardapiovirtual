@@ -43,9 +43,14 @@ table {
 }
 
 header{
-    display: block;
+    display: flex;
     position: relative;
-    
+       
+}
+
+header img{
+    padding-left: 100px;
+    padding-top: 15px;
 }
 
 body{
@@ -54,6 +59,11 @@ body{
     justify-content: center;
     
     
+}
+
+h1{
+    font-size: 100px;
+    margin: 0 auto;
 }
 h2{
     text-align: center;
@@ -66,7 +76,7 @@ h2{
 .container{
     display: flexbox;
     background-color: rgb(250, 242, 242);
-    margin-left: 4rem;
+    margin-left: 15rem;
     min-width: 550px;
 }
 .coluna-quantidade input, .coluna-pedTota input{
@@ -81,7 +91,12 @@ main{
     padding-top: 20px;
     
 }
-
+.header_linha{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+}
 .linha{
     align-items: center;
     text-align: center;
@@ -89,7 +104,7 @@ main{
     margin-bottom: 10px;
 }
 
-.linha1{
+section .linha1{
     display: flex;
     margin-bottom: 10px;
     align-items: center;
@@ -111,10 +126,12 @@ main{
 }
 
 .coluna-pedTota{
+    
     min-width: 40px;
     max-width: 70px;
-    padding-left: 10px;
+    padding-left: 20px;
     margin-left: 10px;
+    padding-right: 30px;
 }
 
 .coluna-item{
@@ -126,12 +143,14 @@ main{
 
 .coluna-vunit{
     width: 100px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
+
+
 
 .coluna-vtotal{
     width: 100px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .btnimp{
@@ -152,5 +171,12 @@ main{
     justify-content: space-around;
     display: flex;
     width: 80%;
-    margin-left: ;
+    margin-left: 15rem;
+    padding-top: 5px;
+    
+}
+
+#wrap-garcom{
+    position: absolute;
+    display: flex;
 }
